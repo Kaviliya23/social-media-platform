@@ -1,0 +1,36 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Social Media Platform </h1>
+    <div id="user-form">
+      <h2>Create User</h2>
+      <input type="text" id="username" placeholder="User Name">
+      <button onclick="createUser()" id="btn"><b>Create</b></button>
+    </div>
+    <div id="post-form">
+      <h2>Create Post</h2>
+      <input type="text" id="post-content" placeholder="What's on your mind?">
+      <input type="file" id="post-image" accept="image/*">
+      <button onclick="createPost() " id="btn"><b>Post</b></button>
+    </div>
+    <div id="user-info" style="display: none;">
+      <h2>User Information</h2>
+      <p id="user-info-text"></p>
+    </div>
+    <div id="post-preview" style="display: none;">
+      <h2>Post Preview</h2>
+      <p id="post-content-preview"></p>
+      <img id="post-image-preview" src="#" alt="Post Image" style="max-width: 300px; display: none;">
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

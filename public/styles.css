@@ -1,0 +1,53 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding:20px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1{
+    text-align: center;
+}
+  
+  #app {
+    max-width: 600px;
+    max-height:800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#7177b2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+  
+  #user-form, #post-form {
+    margin-bottom: 20px;
+}
+  
+  #posts {
+    border-top: 1px solid #ccc;
+
+}
+  
+.post {
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#btn{
+    color:black;
+    margin: 15px;
+    border: black;
+    background-color:white;
+    padding:15px black;
+}
+
+  
