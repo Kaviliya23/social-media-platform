@@ -1,1 +1,1 @@
-social media platform using html,cas,jaba script and express.js
+social media platform using html,cas,java script and express.js
